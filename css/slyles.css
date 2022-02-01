@@ -290,8 +290,20 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color-text);
-  /* padding-bottom: 30px; */
 }
+.social-links{
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+
+}
+.social-links-item{
+
+}
+.social-links-icon{
+  
+}
+
 /*----------------portfolio hiro---------------*/
 .hiro-p {
   padding-top: 94px;
