@@ -101,13 +101,15 @@ a {
 
 .header-list-contact {
   display: flex;
-  padding-left: 182px;
+  padding-left: 110px;
+  align-items: center;
 }
 .header-item-contacts {
   height: 16px;
   justify-content: space-between;
   padding-left: 50px;
 }
+
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -130,9 +132,29 @@ a {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
+
+.icon-letter{
+  margin-right: 10px;
+  fill: var(--title-color-text);
+
+}
+.icon-letter:hover {
+  fill:currentColor;
+}
+
 .header-link-contacts:hover,
 .header-link-contacts:focus {
   color: var(--link-color);
+}
+
+
+
+
+.icon-smartphone{
+  margin-right: 10px;
+  fill: var(--link-color);
+
 }
 /*--------------STUDIO-Hiro-----------------*/
 .hiro-s {
