@@ -343,7 +343,7 @@ a {
   width: 44px;
   height: 44px;
   cursor: pointer;
-  color: #ffffff;
+  fill: #afb1b8;
   /* transition: background-color var(--link-color); */
 }
 .social-links-icon {
@@ -355,11 +355,12 @@ a {
 .links:hover,
 .links:focus {
   background-color: var(--link-color);
+  fill: var(--main-white-color);
 }
 
 .links:hover .social-links-icon:hover,
 .links:focus .social-links-icon:focus {
-  fill: #ffffff;
+  /* fill: var(--main-white-color); */
 }
 /*---------Постоянные Клиенты ------- Partners-----*/
 
