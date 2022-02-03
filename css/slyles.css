@@ -139,7 +139,7 @@ a {
   margin-right: 10px;
   fill: var(--title-color-text);
 }
-.icon-letter:hover {
+.icon-letter {
   fill: currentColor;
 }
 
@@ -150,7 +150,7 @@ a {
 
 .icon-smartphone {
   margin-right: 10px;
-  fill: var(--link-color);
+  fill: currentColor;
 }
 /*--------------STUDIO-Hiro-----------------*/
 .hiro-s {
