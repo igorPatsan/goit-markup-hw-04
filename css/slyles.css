@@ -38,7 +38,9 @@ a {
 }
 
 .footer-conteiner {
-  align-items: center;
+  /* align-items: center; */
+  display: flex;
+  align-items: baseline;
 }
 
 .visually-hidden {
@@ -271,6 +273,7 @@ a {
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
+  background: #f5f4fa;
 }
 .team-title {
   font-weight: bold;
@@ -328,8 +331,6 @@ a {
 }
 
 .social-links-item {
-  /* width: calc((100% - 40px) / 4);
-  margin-right: 10px; */
   display: flex;
   justify-content: center;
 }
@@ -342,12 +343,14 @@ a {
   width: 44px;
   height: 44px;
   cursor: pointer;
+  color: #ffffff;
   /* transition: background-color var(--link-color); */
 }
 .social-links-icon {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
+  /* fill: currentColor; */
+  /* fill: #afb1b8; */
 }
 .links:hover,
 .links:focus {
@@ -357,6 +360,54 @@ a {
 .links:hover .social-links-icon:hover,
 .links:focus .social-links-icon:focus {
   fill: #ffffff;
+}
+/*---------Постоянные Клиенты ------- Partners-----*/
+
+.partners {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.partners-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+.partners-list {
+  display: flex;
+  justify-content: center;
+  margin-right: -30px;
+}
+.partners-item {
+  width: calc((100% - 180px) / 6);
+  margin-right: 30px;
+}
+.partners-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92px;
+  width: 170px;
+  /* outline: 2px solid red; */
+  border: 1px solid #afb1b8;
+}
+.partners-link {
+  cursor: pointer;
+  /* color: #ffffff; */
+}
+
+.logotip-icon {
+  width: 160px;
+  height: 60px;
+  outline: 2px solid red;
+}
+.logotip-icon:hover,
+.logotip-icon:focus {
+  /* background-color: var(--link-color); */
+  /* fill: #ffffff; */
 }
 
 /*----------------portfolio hiro---------------*/
@@ -422,6 +473,10 @@ a {
 .project-items:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
+.partners-link {
+  cursor: pointer;
+}
+
 .project-lines {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -444,52 +499,15 @@ a {
   letter-spacing: 0.03em;
   color: var(--title-color-text);
 }
-.partners {
-  padding-bottom: 94px;
-}
-.partners-title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 50px;
-}
-.partners-list {
-  display: flex;
-  justify-content: center;
-  margin-right: -30px;
-}
-.partners-item {
-  width: calc((100% - 180px) / 6);
-  margin-right: 30px;
-}
-.partners-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 92px;
-  width: 170px;
-  /* outline: 2px solid red; */
-  border: 1px solid #afb1b8;
-}
-.partners-link {
-  cursor: pointer;
-}
-
-.logotip-icon {
-  width: 160px;
-  height: 60px;
-  outline: 2px solid red;
-}
 
 /*-----------------Footer---------------*/
 .footer {
+  display: flex;
+  align-items: baseline;
   background-color: #2f303a;
   margin: 0 auto;
-  padding-top: 51px;
-  padding-bottom: 51px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo-link {
   font-family: 'Raleway', sans-serif;
@@ -531,4 +549,52 @@ a {
 .footer-link-contact:hover,
 .footer-link-contact:focus {
   color: var(--link-color);
+}
+.footer-social-link {
+  padding-top: 12px;
+  margin-left: 70px;
+}
+.footer-text-last {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-soc-links {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* outline: 2px solid red; */
+  width: 206px;
+  height: 44px;
+}
+
+.footer-soc-links-item {
+}
+
+.footerlinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  fill: #ffffff;
+}
+.footerlinks:focus,
+.footerlinks:hover {
+  background-color: var(--link-color);
+  color: #ffffff;
+}
+.footersoc-links-icon {
+  width: 20px;
+  height: 20px;
+  /* fill: currentColor; */
+  fill: #afb1b8;
 }
