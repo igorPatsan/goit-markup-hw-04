@@ -397,7 +397,7 @@ a {
 }
 .partners-link {
   cursor: pointer;
-  /* color: #ffffff; */
+  fill: #afb1b8;
 }
 
 .logotip-icon {
@@ -407,8 +407,7 @@ a {
 }
 .logotip-icon:hover,
 .logotip-icon:focus {
-  /* background-color: var(--link-color); */
-  /* fill: #ffffff; */
+  fill: var(--link-color);
 }
 
 /*----------------portfolio hiro---------------*/
