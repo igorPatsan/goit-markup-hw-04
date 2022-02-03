@@ -596,5 +596,5 @@ a {
   width: 20px;
   height: 20px;
   /* fill: currentColor; */
-  fill: #afb1b8;
+  fill: var(--main-white-color);
 }
