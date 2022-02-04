@@ -389,8 +389,7 @@ a {
 .partners-item {
   width: calc((100% - 180px) / 6);
   margin-right: 30px;
-}
-.partners-icon {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -400,8 +399,8 @@ a {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-.partners-icon:hover,
-.partners-icon:focus {
+.partners-item:hover,
+.partners-item:focus {
   border: 1px solid var(--link-color);
   border-radius: 4px;
 }
@@ -413,7 +412,6 @@ a {
 .logotip-icon {
   width: 160px;
   height: 60px;
-  /* outline: 2px solid red; */
 }
 .logotip-icon:hover,
 .logotip-icon:focus {
