@@ -103,8 +103,7 @@ a {
 
 .header-list-contact {
   display: flex;
-  padding-left: 163px;
-  align-items: center;
+  margin-left: auto;
 }
 .header-item-contacts {
   height: 16px;
@@ -389,22 +388,17 @@ a {
 .partners-item {
   width: calc((100% - 180px) / 6);
   margin-right: 30px;
+}
+
+.partners-link {
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 92px;
   width: 170px;
-  /* outline: 2px solid red; */
   border: 1px solid #afb1b8;
   border-radius: 4px;
-}
-.partners-item:hover,
-.partners-item:focus {
-  border: 1px solid var(--link-color);
-  border-radius: 4px;
-}
-.partners-link {
   cursor: pointer;
   fill: #afb1b8;
 }
@@ -413,9 +407,10 @@ a {
   width: 160px;
   height: 60px;
 }
-.logotip-icon:hover,
-.logotip-icon:focus {
+.partners-link:hover,
+.partners-link:focus {
   fill: var(--link-color);
+  border: 1px solid var(--link-color);
 }
 
 /*----------------portfolio hiro---------------*/
@@ -450,12 +445,10 @@ a {
   display: inline-block;
   border-radius: 4px;
   margin: 0 auto;
-  /* min-width: 73px; */
   padding-left: 22px;
   padding-right: 22px;
   padding-top: 6px;
   padding-bottom: 6px;
-  height: 38px;
 }
 .hiro-p-button:hover,
 .hiro-p-button:focus {
